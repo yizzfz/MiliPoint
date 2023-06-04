@@ -1,0 +1,7 @@
+seed = 20
+processed_data = 'data/processed/mmr_iden/seed_20_stacks_5_padd_point_task_iden.pkl'
+train_split = 0.8
+val_split = 0.1
+test_split = 0.1
+stacks = 5
+zero_padding = 'per_data_point'
