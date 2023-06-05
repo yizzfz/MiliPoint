@@ -8,15 +8,23 @@ For more, you can watch this [video](https://www.youtube.com/watch?v=Vi-Lfm0-AXg
 
 ---
 
-## Data Download and Preparation
+## Dataset Download and Preparation
 
-Download `MiliPoint_data.zip` from [Google drive](https://drive.google.com/file/d/1rq8yyokrNhAGQryx7trpUqKenDnTI6Ky/view?usp=drive_link), unzip all contents to `data/raw/mmr_data/`:
+Clone the project.
+
 ```
-data
-└─raw
-  ├─1.pkl
-  ├─2.pkl
-  ├─...
+git clone https://github.com/yizzfz/MiliPoint.git
+cd MiliPoint
+```
+
+Download `MiliPoint_data.zip` from [Google drive](https://drive.google.com/file/d/1rq8yyokrNhAGQryx7trpUqKenDnTI6Ky/view?usp=drive_link), unzip all contents to `data/raw/`:
+```
+MiliPoint
+└─data
+  └─raw
+    ├─1.pkl
+    ├─2.pkl
+    ├─...
 ```
 
 ---
