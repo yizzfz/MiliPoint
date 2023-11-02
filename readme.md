@@ -201,3 +201,18 @@ The performance of these models are included in the paper.
 	```bash
 	python mm test mmr_act dgcnn --load mmr_act_dgcnn -config ./configs/act/mmr_act_stack_5_point.toml -w 0 -a gpu
 	```
+
+## Ciation
+
+If you find this work useful, please consider citing our paper:
+
+```
+@misc{cui2023milipoint,
+      title={MiliPoint: A Point Cloud Dataset for mmWave Radar}, 
+      author={Han Cui and Shu Zhong and Jiacheng Wu and Zichao Shen and Naim Dahnoun and Yiren Zhao},
+      year={2023},
+      eprint={2309.13425},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
